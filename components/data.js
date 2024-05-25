@@ -12,22 +12,21 @@ import benefitTwoImg from "../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Portable Design",
+      desc: " Compact and lightweight, making it easy to carry and use in various environments.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Energy Efficient",
+      desc: " Designed to consume minimal power, ensuring long-lasting operation on a single battery charge.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Haptic Feedback",
+      desc: "Equipped with vibration motors that provide tactile feedback to the user, indicating the proximity and direction of detected obstacles.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
@@ -35,23 +34,17 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "Obstacle Detection",
+      desc: "Utilizes ultrasonic sensors to detect objects in the user's path up to a certain range, ensuring early warning and safe navigation.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Arduino Microcontroller:",
+      desc: "Acts as the core of the system, processing input from sensors and controlling output to the haptic feedback devices.",
       icon: <AdjustmentsHorizontalIcon />,
-    },
-    {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
-      icon: <SunIcon />,
     },
   ],
 };

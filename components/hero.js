@@ -9,11 +9,9 @@ const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              3rd eye for blind
-            </h1>
+            3rd FOR BLIND            </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              DESCRIPTION 
-            </p>
+            The "3rd Eye for the Blind" project leverages the capabilities of Arduino to create a portable and affordable device aimed at assisting visually impaired individuals in navigating their environment safely. The device uses a combination of sensors and haptic feedback mechanisms to detect obstacles and provide alerts to the user.            </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
@@ -24,7 +22,7 @@ const Hero = () => {
                 Download for Free
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://github.com/allworkdone/third-eye-portfolio"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">

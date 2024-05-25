@@ -40,59 +40,41 @@ export function TracingBeamDemo() {
 
 const dummyContent = [
     {
-        title: "Lorem Ipsum Dolor Sit Amet",
+        title: "",
         description: (
             <>
                 <p>
-                    Sit duis est minim proident non nisi velit non consectetur. Esse
-                    adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
-                    Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
-                    incididunt enim magna id est qui sunt fugiat. Laboris do duis pariatur
-                    fugiat Lorem aute sit ullamco. Qui deserunt non reprehenderit dolore
-                    nisi velit exercitation Lorem qui do enim culpa. Aliqua eiusmod in
-                    occaecat reprehenderit laborum nostrud fugiat voluptate do Lorem culpa
-                    officia sint labore. Tempor consectetur excepteur ut fugiat veniam
-                    commodo et labore dolore commodo pariatur.
+                The "3rd Eye for the Blind" is an innovative assistive device designed to enhance the mobility and safety of visually impaired individuals. Leveraging Arduino technology, the project employs ultrasonic sensors to detect obstacles in the user's path and provides real-time feedback through haptic signals. This intuitive design allows users to navigate their surroundings with greater confidence and independence. The device is lightweight, easy to use, and offers a reliable solution to improve the daily lives of those with vision impairments.
                 </p>
-                <p>
-                    Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
-                    veniam in commodo id reprehenderit adipisicing. Proident duis
-                    exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
-                </p>
-                <p>
-                    Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
-                    reprehenderit deserunt amet laborum consequat adipisicing officia qui
-                    irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
-                    Amet culpa officia aliquip deserunt veniam deserunt officia
-                    adipisicing aliquip proident officia sunt.
-                </p>
+               
             </>
         ),
-        badge: "React",
+        badge: "ABOUT",
         image:
             "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-        title: "Lorem Ipsum Dolor Sit Amet",
+        title: "",
         description: (
             <>
                 <p>
-                    Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                    deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                    non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                    sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-                    velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-                    commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
-                </p>
+                Arduino Microcontroller: Acts as the core of the system, processing input from sensors and controlling output to the haptic feedback devices.
+                </p><br/>
                 <p>
-                    In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
-                    veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
-                    reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
-                    cillum ut mollit.
+                Ultrasonic Sensors: Measure the distance to obstacles and provide input data to the Arduino for processing.
+
+                </p><br/>
+                Vibration Motors: Deliver tactile feedback to the user based on processed sensor data.
+
+                <p>
+<p>
+Power Management: Efficient battery usage and low-power components to extend operational life.
+
+</p>
                 </p>
             </>
         ),
-        badge: "Changelog",
+        badge: "TECHNOLOGIES USED",
         image:
             "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -100,17 +82,26 @@ const dummyContent = [
         title: "Lorem Ipsum Dolor Sit Amet",
         description: (
             <>
-                <p>
-                    Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
-                    deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
-                    non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
-                    sint qui qui do do qui do. Labore laborum culpa magna reprehenderit ea
-                    velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
-                    commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
-                </p>
+            <p>
+            Obstacle Detection: Utilizes ultrasonic sensors to detect objects in the user's path up to a certain range, ensuring early warning and safe navigation.
+
+            </p><br/>
+            <p>
+            Haptic Feedback: Equipped with vibration motors that provide tactile feedback to the user, indicating the proximity and direction of detected obstacles.
+
+            </p><br/>
+            <p>
+Energy Efficient: Designed to consume minimal power, ensuring long-lasting operation on a single battery charge.
+
+            </p><br/>
+            <p>
+            Portable Design: Compact and lightweight, making it easy to carry and use in various environments.
+
+            </p><br/>
+              
             </>
         ),
-        badge: "Launch Week",
+        badge: "KEY FEATURES",
         image:
             "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },

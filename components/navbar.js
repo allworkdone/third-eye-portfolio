@@ -8,7 +8,6 @@ const Navbar = () => {
     "Product",
     "Pricing",
     "Members",
-    "Blog",
   ];
 
   return (
@@ -30,7 +29,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span>3rd FOR BLIND</span>
                   </span>
                 </Link>
 

@@ -33,10 +33,10 @@ const content = [
     {
         title: "PURUSHOTTAM KUMAR",
         description:
-            "MEAN stack developer holding expertise in backend-development with 1+ years of experience",
+            "MERN stack developer holding expertise in backend-development with 1+ years of experience",
         content: (
             <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-                Version control
+                Auth Controller
             </div>
         ),
     },
@@ -46,17 +46,17 @@ const content = [
             "Java full stack developer holding expertise in java-backend-development with 6 months of experience",
         content: (
             <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-                Running out of content
+                Product Designer
             </div>
         ),
     },
     {
-        title: "SAKSHI KUMAR",
+        title: "SAKSHI KUMARI",
         description:
             "MEAN stack developer holding expertise in backend-development with 1+ years of experience",
         content: (
             <div className="h-full w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex items-center justify-center text-white">
-                Running out of content
+                Documentation Management
             </div>
         ),
     },

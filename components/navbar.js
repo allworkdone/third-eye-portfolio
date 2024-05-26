@@ -29,7 +29,7 @@ const Navbar = () => {
                         className="w-8"
                       />
                     </span>
-                    <span>3rd FOR BLIND</span>
+                    <span>3rd EYE FOR BLIND</span>
                   </span>
                 </Link>
 
